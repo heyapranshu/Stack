@@ -24,9 +24,6 @@ int isfull(struct stack *ptr) {
 }
 
 int main() {
-    // Allocate memory for stack structure
-    struct stack *s = (struct stack *)malloc(sizeof(struct stack));
-
     // Initialize stack properties
     s->size = 80;
     s->top = -1;
